@@ -7,6 +7,12 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Inter', ...defaultTheme.fontFamily.sans]
+            },
+            width: {
+                'thumbnail': '12.5rem'
+            },
+            padding: {
+                '100p': '100%'
             }
         }
     },
